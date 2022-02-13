@@ -1,0 +1,86 @@
+body {
+    background-color:#f0f2f5;
+    .warpper{
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .cont-itens {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 150px;
+        margin-bottom: 200px;
+        .itens {
+            margin: auto;
+            .cont-img-logo {
+                margin-top: -90px;
+                width: 300px;
+                img {
+                    width: 100%;
+                }
+            }
+            .cont-text{
+                p{
+                    margin-left: 25px;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            }
+
+            .cont-card {
+                background-color: #ffff;
+                border-radius: 5px;
+                width: 25rem;
+                box-shadow: 1px 1px 10px 1px rgb(211, 211, 211);
+                .cont-btn-entrar {
+                    button {
+                        width: 100%;
+                        padding: 13px;
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        text-decoration: none;
+                    }
+                }
+                .cont-nova-conta {
+                    width: 200px;
+                    margin: auto;
+                   button{
+                       width: 200px;
+                        background-color: #42B72a;
+                        border: none;
+                        font-size: 20px;
+                        padding: 10px;
+                   } 
+                }
+            }
+            
+        }
+        
+    }
+
+    footer{
+       background-color: #fff;
+       color: #919090;
+       a{
+           color: #919090;
+           text-decoration: none;
+           padding: 10px 0px 0px 10px;
+       } 
+       a:hover{
+            color: #919090;
+       }
+    }
+    
+}
+
+@media only screen and (max-width: 770px){
+    .cont-text{
+        text-align: center;
+    }
+}
